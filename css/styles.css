@@ -1,0 +1,144 @@
+*
+{
+	margin: 0;
+	padding-left: 0;
+}
+
+body{
+	font-family: sans-serif;
+	    position: relative; 
+
+}
+
+/*-----------NAVIGATION-----------*/
+
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.navbar{
+	background-image: linear-gradient(to right, #293FC7, #18056E);
+	padding: 0 !important;
+}
+
+.navbar-brand img{
+	height: 2rem;
+	padding-left: 2rem;
+}
+
+.navbar-nav li{
+	padding: 0 1rem;
+
+}
+
+.navbar-nav li a{
+	color: #fff !important;
+	font-weight: 500; 
+	float: right;
+	text-align: left;
+}
+
+.navbar-nav li a:hover{
+	font-weight: 700; 
+}
+
+.fa-bars{
+	color: #fff;
+	font-size: 1.5rem !important; 
+}
+
+.navbar-toggler{
+	outline: none;
+}
+
+/*-----------BANNER SECTION-----------*/
+#banner{
+	background-image: linear-gradient(to right, #293FC7, #18056E);
+	color: #fff !important;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	align-content: center;
+}
+
+#banner .btn-primary{
+	background-color: #40B5BC;
+	padding: 2% 4% 1% 4%;
+	margin-bottom: 5%
+}
+
+/*-----------ABOUT SECTION-----------*/
+#about{
+	padding-top: 10%;
+}
+
+.title{
+	color: #18056E;
+}
+
+.title::after{
+	content: "";
+	background: #40B5BC;
+	height: .25rem;
+	width: 11rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5%;
+	display: block;
+}
+/*-----------SERVICES SECTION-----------*/
+#services{
+	padding-top: 10%;
+}
+
+#services .card{
+	border: none;
+	border-radius: 0;
+	box-shadow: 4px 4px 6px #180F45;
+	transition: all 0.3s ease-in;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	padding: .5rem .5rem .5rem .5rem;
+	margin-bottom: 2rem;
+}
+
+#services .card:hover{
+	background: #18056E;
+	color: #fff;
+	border-radius: 0;
+	box-shadow: 4px 4px 6px #180F45;
+	transition: all 0.3s ease-in;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	padding: .5rem .5rem .5rem .5rem;
+
+}
+
+.services-img{
+	width: 40%;
+	padding: 5% 0 10% 0;
+	margin: 0 auto;
+}
+
+
+/*-----------PORTFOLIO SECTION-----------*/
+#portfolio{
+	padding: 10% 0 10% 0;
+}
+
+/*-----------FOOTER SECTION-----------*/
+
+#footer{
+	background-image: linear-gradient(to right, #293FC7, #18056E);
+	color: #fff !important;
+	padding: 10%;
+}
+
+#map { 
+	position: relative;
+	margin: 0 auto;
+	padding: 5% 10% 5% 10%;
+
+}
+
