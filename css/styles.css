@@ -63,7 +63,7 @@ body{
 }
 
 #banner .btn-primary{
-	background-color: #40B5BC;
+	background-color: #4AD3DB;
 	padding: 2% 4% 1% 4%;
 	margin-bottom: 5%
 }
@@ -121,6 +121,9 @@ body{
 	margin: 0 auto;
 }
 
+#services h3{
+	font-size: 150%;
+}
 
 /*-----------PORTFOLIO SECTION-----------*/
 #portfolio{
@@ -133,6 +136,10 @@ body{
 	background-image: linear-gradient(to right, #293FC7, #18056E);
 	color: #fff !important;
 	padding: 10%;
+}
+
+#footer .btn-primary{
+	background-color: #4AD3DB;
 }
 
 #map { 
