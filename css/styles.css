@@ -6,7 +6,8 @@
 
 body{
 	font-family: sans-serif;
-	    position: relative; 
+	position: relative; 
+	color: #1e3c72;
 
 }
 
@@ -19,7 +20,7 @@ body{
 }
 
 .navbar{
-	background-image: linear-gradient(to right, #293FC7, #18056E);
+	background-image: linear-gradient(to right, #2a5298, #1e3c72);
 	padding: 0 !important;
 }
 
@@ -55,7 +56,7 @@ body{
 
 /*-----------BANNER SECTION-----------*/
 #banner{
-	background-image: linear-gradient(to right, #293FC7, #18056E);
+	background-image: linear-gradient(to right, #2a5298, #1e3c72);
 	color: #fff !important;
 	padding-top: 5%;
 	padding-bottom: 5%;
@@ -63,8 +64,8 @@ body{
 }
 
 #banner .btn-primary{
-	background-color: #4AD3DB;
-	padding: 2% 4% 1% 4%;
+	background-color: #D80056;
+	padding: 1% 4% 1% 4%;
 	margin-bottom: 5%
 }
 
@@ -74,12 +75,12 @@ body{
 }
 
 .title{
-	color: #18056E;
+	color: #1e3c72;
 }
 
 .title::after{
 	content: "";
-	background: #40B5BC;
+	background: #D80056;
 	height: .25rem;
 	width: 11rem;
 	margin-left: auto;
@@ -95,7 +96,7 @@ body{
 #services .card{
 	border: none;
 	border-radius: 0;
-	box-shadow: 4px 4px 6px #180F45;
+	box-shadow: 4px 4px 6px #1e3c72;
 	transition: all 0.3s ease-in;
 	-webkit-transition: all 0.3s ease-in;
 	-moz-transition: all 0.3s ease-in;
@@ -104,10 +105,10 @@ body{
 }
 
 #services .card:hover{
-	background: #18056E;
+	background: #1e3c72;
 	color: #fff;
 	border-radius: 0;
-	box-shadow: 4px 4px 6px #180F45;
+	box-shadow: 4px 4px 6px #1e3c72;
 	transition: all 0.3s ease-in;
 	-webkit-transition: all 0.3s ease-in;
 	-moz-transition: all 0.3s ease-in;
@@ -133,13 +134,13 @@ body{
 /*-----------FOOTER SECTION-----------*/
 
 #footer{
-	background-image: linear-gradient(to right, #293FC7, #18056E);
+	background-image: linear-gradient(to right, #2a5298, #1e3c72);
 	color: #fff !important;
 	padding: 10%;
 }
 
 #footer .btn-primary{
-	background-color: #4AD3DB;
+	background-color: #D80056;
 }
 
 #map { 
